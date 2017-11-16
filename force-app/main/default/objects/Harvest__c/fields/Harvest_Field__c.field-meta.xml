@@ -3,9 +3,9 @@
     <fullName>Harvest_Field__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Harvest Field</label>
+    <label>収穫区画</label>
     <referenceTo>Harvest_Field__c</referenceTo>
-    <relationshipLabel>Harvests</relationshipLabel>
+    <relationshipLabel>収穫</relationshipLabel>
     <relationshipName>Harvests</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

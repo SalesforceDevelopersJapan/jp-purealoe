@@ -15,7 +15,7 @@
             </lightning:layoutitem>
             <lightning:layoutitem flexibility="grow">
                 <div class="title slds-truncate"><a href="" onclick="{!c.titleClickHandler}">{#v.merchandise.Title__c}</a></div>
-                <div>MSRP: <span class="price"><lightning:formattedNumber value="{#v.merchandise.Price__c}" style="currency" /></span></div>
+                <div>希望小売価格: <span class="price"><lightning:formattedNumber value="{#v.merchandise.Price__c}" style="currency" /></span></div>
             </lightning:layoutitem>
         </lightning:layout>
     </div> 

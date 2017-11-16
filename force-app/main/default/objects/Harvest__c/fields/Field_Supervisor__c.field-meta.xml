@@ -3,7 +3,7 @@
     <fullName>Field_Supervisor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Field Supervisor</label>
+    <label>区画監督者</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Harvests</relationshipName>
     <required>false</required>

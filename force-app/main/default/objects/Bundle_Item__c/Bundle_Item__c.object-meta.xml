@@ -52,13 +52,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Bundle Item</label>
+    <label>商品セットアイテム</label>
     <nameField>
         <displayFormat>MI-{0000000}</displayFormat>
-        <label>Bundle Name</label>
+        <label>商品セットアイテム名</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Bundle Items</pluralLabel>
+    <pluralLabel>商品セットアイテム</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

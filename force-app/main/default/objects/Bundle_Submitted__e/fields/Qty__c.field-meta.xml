@@ -5,7 +5,7 @@
     <isFilteringDisabled>false</isFilteringDisabled>
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>
-    <label>Qty</label>
+    <label>数量</label>
     <precision>6</precision>
     <scale>0</scale>
     <required>false</required>

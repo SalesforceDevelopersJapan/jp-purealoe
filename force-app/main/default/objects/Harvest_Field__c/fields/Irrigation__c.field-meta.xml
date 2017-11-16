@@ -3,7 +3,7 @@
     <fullName>Irrigation__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Irrigation</label>
+    <label>灌漑</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

@@ -11,6 +11,6 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-    <label>Einstein Settings</label>
+    <label>Einstein設定</label>
     <visibility>Public</visibility>
 </CustomObject>

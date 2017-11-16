@@ -7,16 +7,16 @@
     onInit : function(component, event, helper) {
         
         var harvestColumns = [
-            {label: 'Date', fieldName: 'harvestDate', type: 'text'},
-            {label: 'Qty', fieldName: 'qty', type: 'text'},
-            {label: 'Supervisor', fieldName: 'supervisor', type: 'text'}
+            {label: '日時', fieldName: 'harvestDate', type: 'text'},
+            {label: '数量', fieldName: 'qty', type: 'text'},
+            {label: '監督者', fieldName: 'supervisor', type: 'text'}
         ];
         component.set("v.harvestColumns", harvestColumns);
 
         var irrigationColumns = [
-            {label: 'When', fieldName: 'when', type: 'text'},
-            {label: 'Duration', fieldName: 'duration', type: 'text'},
-            {label: 'Volume', fieldName: 'volume', type: 'text'}
+            {label: '日時', fieldName: 'when', type: 'text'},
+            {label: '時間', fieldName: 'duration', type: 'text'},
+            {label: '量', fieldName: 'volume', type: 'text'}
         ];
         component.set("v.irrigationColumns", irrigationColumns);
 

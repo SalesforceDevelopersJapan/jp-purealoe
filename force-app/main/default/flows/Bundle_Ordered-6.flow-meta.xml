@@ -140,7 +140,7 @@
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Always</label>
+            <label>常に</label>
         </rules>
     </decisions>
     <formulas>
@@ -275,7 +275,7 @@
             </value>
         </processMetadataValues>
         <name>myRule_1_A1</name>
-        <label>Change Bundle Status</label>
+        <label>商品セットステータス変更</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
         <connector>
@@ -310,7 +310,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Status</stringValue>
+                    <stringValue>ステータス</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -327,7 +327,7 @@
             </processMetadataValues>
             <field>Status__c</field>
             <value>
-                <stringValue>Ordered by Distributor</stringValue>
+                <stringValue>販売協力店からオーダー済み</stringValue>
             </value>
         </inputAssignments>
         <object>Bundle__c</object>
@@ -352,7 +352,7 @@
             </value>
         </processMetadataValues>
         <name>myRule_1_A2</name>
-        <label>Order</label>
+        <label>注文</label>
         <locationX>100</locationX>
         <locationY>300</locationY>
         <filters>
@@ -384,7 +384,7 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Account</stringValue>
+                    <stringValue>取引先</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>

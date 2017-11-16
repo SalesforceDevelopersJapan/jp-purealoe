@@ -3,7 +3,7 @@
     <fullName>Sensor_Id__c</fullName>
     <caseSensitive>false</caseSensitive>
     <externalId>true</externalId>
-    <label>Sensor Id</label>
+    <label>センサーId</label>
     <length>100</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

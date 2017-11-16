@@ -57,12 +57,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Harvest Field</label>
+    <label>収穫区画</label>
     <nameField>
-        <label>Harvest Field Name</label>
+        <label>収穫区画名</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Harvest Fields</pluralLabel>
+    <pluralLabel>収穫区画</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

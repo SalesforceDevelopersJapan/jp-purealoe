@@ -12,10 +12,10 @@
 			<span class="title"><a href="" onclick="{!c.titleClickHandler}">{#v.bundleItem.title}</a></span>
 			<lightning:layout verticalAlign="center">
 					<lightning:layoutitem>
-							MSRP: <span class="price"><lightning:formattedNumber value="{#v.bundleItem.price}" style="currency"/></span>
+							価格: <span class="price"><lightning:formattedNumber value="{#v.bundleItem.price}" style="currency"/></span>
 					</lightning:layoutitem>
 					<lightning:layoutitem>
-						Qty: 
+						数量: 
 						<lightning:input type="number" name="qty" label="Qty" value="{#v.bundleItem.qty}" step="1"
 							onblur="{!c.qtyChangeHandler}"/>
 						<lightning:buttonIcon iconName="utility:delete" variant="bare" size="medium" class="toggle"

@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>if(ISBLANK(Harvest_Field__r.Picture_URL__c), '', IMAGE(Harvest_Field__r.Picture_URL__c, "Picture"))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Crop Picture</label>
+    <label>作物画像</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

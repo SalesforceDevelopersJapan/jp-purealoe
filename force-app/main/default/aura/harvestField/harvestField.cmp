@@ -27,18 +27,18 @@
                 </aura:set>
     
                 <aura:set attribute="actions">
-                    <lightning:button label="Details" onclick="{!c.navigateToRecordHome}"/>
+                    <lightning:button label="詳細" onclick="{!c.navigateToRecordHome}"/>
                 </aura:set>
     
                 <aura:if isTrue="{!equals(v.harvestField.Status__c, 'Alert')}">
                     <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
-                        <h2>ALERT: Irrigation level below threshold</h2>
+                        <h2>警告: 灌漑レベルがしきい値を超えました</h2>
                     </div>
                 </aura:if>
     
                 <aura:if isTrue="{!equals(v.harvestField.Status__c, 'Warning')}">
                     <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_warning" role="alert">
-                        <h2>WARNING: Irrigation level below threshold</h2>
+                        <h2>注意: 灌漑レベルがしきい値間近です</h2>
                     </div>
                 </aura:if>
                 <lightning:layout class="details">
@@ -48,41 +48,41 @@
                     <lightning:layoutItem >
                             <div class="form details">
                                     <div>
-                                        <label>Crop:</label>{!v.harvestField.Crop__c}
+                                        <label>作物:</label>{!v.harvestField.Crop__c}
                                     </div>
                                     <div>
-                                        <label>Size:</label>{!v.harvestField.Size__c}
+                                        <label>サイズ:</label>{!v.harvestField.Size__c}
                                     </div>
                                     <div>
-                                        <label>Yield:</label>{!v.harvestField.Yield__c} lbs
+                                        <label>産出:</label>{!v.harvestField.Yield__c} lbs
                                     </div>
                                 </div>
                                     </lightning:layoutItem>
                 </lightning:layout>
     
                 <lightning:accordion >
-                    <lightning:accordionSection label="Irrigation">
+                    <lightning:accordionSection label="灌漑">
                         <lightning:layout >
                             <lightning:layoutItem flexibility="grow">
                                 <div class="form">
                                     <div>
-                                        <label>Level:</label>19.8%
+                                        <label>レベル:</label>19.8%
                                     </div>
                                     <div>
-                                        <label>Status:</label>{!v.harvestField.Status__c}
+                                        <label>ステータス:</label>{!v.harvestField.Status__c}
                                     </div>
                                 </div>
                             </lightning:layoutItem>
                             <lightning:layoutItem >
-                                <lightning:input type="toggle" checked="{!v.harvestField.Irrigation__c}" label="Irrigation" onchange="{!c.toggleChangeHandler}" class="irrigation-toggle"/>
+                                <lightning:input type="toggle" checked="{!v.harvestField.Irrigation__c}" label="灌漑" onchange="{!c.toggleChangeHandler}" class="irrigation-toggle"/>
                             </lightning:layoutItem>
                         </lightning:layout>
                         <lightning:datatable data="{!v.irrigationHistory}" columns="{!v.irrigationColumns}" />
                     </lightning:accordionSection>
-                    <lightning:accordionSection label="Harvests">
+                    <lightning:accordionSection label="収穫">
                         <lightning:datatable data="{!v.harvests}" columns="{!v.harvestColumns}" />
                     </lightning:accordionSection>
-                    <lightning:accordionSection label="More Info">
+                    <lightning:accordionSection label="追加情報">
                     </lightning:accordionSection>
                 </lightning:accordion>
                 <img src="{!$Resource.karibu + '/ground_' + v.harvestField.Status__c + '.png'}" class="ground" />
@@ -90,7 +90,7 @@
     
             <aura:set attribute="else">
                 <lightning:card class="placeholder-card">
-                        <div class="placeholder slds-text-heading_medium">Select a field to see details</div>
+                        <div class="placeholder slds-text-heading_medium">区画を選択して詳細を表示します</div>
                 </lightning:card>
             </aura:set>
                     

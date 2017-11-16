@@ -2,6 +2,6 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <deploymentStatus>Deployed</deploymentStatus>
     <eventType>StandardVolume</eventType>
-    <label>Field Status Change</label>
-    <pluralLabel>Field Status Changes</pluralLabel>
+    <label>区画ステータス変更</label>
+    <pluralLabel>区画ステータス変更</pluralLabel>
 </CustomObject>

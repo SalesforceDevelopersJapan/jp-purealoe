@@ -20,20 +20,20 @@
                         <lightning:buttonIcon iconName="utility:close" variant="bare-inverse" size="large" onclick="{!c.closeDialog}"/>
                         <span class="slds-assistive-text">Close</span>
                       </button>
-                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Irrigation</h2>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">灌漑</h2>
                 </header>
                 <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
 
-                    <lightning:dualListbox name="Select fields to irrigate" label="Select fields to irrigate" sourceLabel="Available Fields"
-                        selectedLabel="Selected Fields" options="{!v.options}" value="{!v.value}" onchange="{!c.handleListChange}"/>
+                    <lightning:dualListbox name="Select fields to irrigate" label="灌漑する区画を選択" sourceLabel="有効な区画"
+                        selectedLabel="選択済み区画" options="{!v.options}" value="{!v.value}" onchange="{!c.handleListChange}"/>
 
                     <div class="form">
-                        <lightning:slider label="Duration (minutes)" step="10" value="90" min="0" max="180" />
+                        <lightning:slider label="期間 (分)" step="10" value="90" min="0" max="180" />
                     </div>
                 </div>
                 <footer class="slds-modal__footer">
-                    <button class="slds-button slds-button_neutral" onclick="{!c.closeDialog}">Cancel</button>
-                    <button class="slds-button slds-button_brand" onclick="{!c.submitDialog}">Submit</button>
+                    <button class="slds-button slds-button_neutral" onclick="{!c.closeDialog}">キャンセル</button>
+                    <button class="slds-button slds-button_brand" onclick="{!c.submitDialog}">送信</button>
                 </footer>
             </div>
         </section>

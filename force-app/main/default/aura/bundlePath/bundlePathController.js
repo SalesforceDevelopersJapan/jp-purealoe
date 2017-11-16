@@ -24,7 +24,7 @@
         var bundle = component.get("v.record");
         var payload = event.getParam("message");
         if (payload.Bundle_Id__c === bundle.Id) {
-            bundle.Status__c = "Ordered by Distributor";
+            bundle.Status__c = "販売協力店からオーダー済み";
             bundle.Account__c = payload.Account_Id__c;
             bundle.Date_Ordered__c = new Date().toLocaleDateString();
             component.set("v.record", bundle);

@@ -2,11 +2,11 @@
     onInit : function(component, event, helper) {
 
         var columns = [
-            {label: 'Name', fieldName: 'Name', type: 'text', sortable: true},
-            {label: 'Crop', fieldName: 'Crop__c', type: 'text', sortable: true},
-            {label: 'Size', fieldName: 'Size__c', type: 'text', sortable: true},
-            {label: 'Irrigation', fieldName: 'Irrigation__c', type: 'number', sortable: true},
-            {label: 'Status', fieldName: 'Status__c', type: 'text', sortable: true},
+            {label: '名称', fieldName: 'Name', type: 'text', sortable: true},
+            {label: '作物', fieldName: 'Crop__c', type: 'text', sortable: true},
+            {label: 'サイズ', fieldName: 'Size__c', type: 'text', sortable: true},
+            {label: '灌漑', fieldName: 'Irrigation__c', type: 'number', sortable: true},
+            {label: 'ステータス', fieldName: 'Status__c', type: 'text', sortable: true},
         ];
 
         component.set("v.columns", columns);

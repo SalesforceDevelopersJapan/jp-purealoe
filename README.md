@@ -1,44 +1,44 @@
-# Pure Aloe App
+# ピュアアロエ - サンプルアプリケーション
 
-Pure Aloe is a  sample application that demonstrates the power of the Salesforce Platform to build modern apps fast. It is a rebranded and anonymized version of the application showcased during the Dreamforce 17 developer keynote.
+ピュアアロエはモダンなアプリケーションを高速に開発できるSalesforce Platformのパワーを体感するためのデモアプリケーションです。Dreamforce 17 の Developer Keynoteで紹介されたデモンストレーションをベースに、誰でも利用できるようにしています。
 
-## Installation Instructions
+## インストール手順
 
-In the commands below, terms wrapped in \*asterisks\* signify places where you'll need to replace the dummy text we're providing with values that match your Salesforce DX setup.
+以下のコマンド内の \*アスタリスク\* で囲まれている箇所をダミーのテキストから、あなたのSalesforce DXでセットアップした値に置き換える必要があります。
 
-1. Authenticate with your hub org (if not already done)
+1. Hub組織に認証を行います (まだ済んでない場合)
     ```
-    sfdx force:auth:web:login -d -a *your_hub_org*
+    sfdx force:auth:web:login -d -a *ハブ組織のエイリアス名*
     ```
 
-1. Clone the purealoe repository:
+1. ピュアアロエリポジトリをコピー:
     ```
-    git clone https://github.com/dreamforce17/purealoe
+    git clone https://github.com/mokamoto/purealoe
     cd purealoe
     ```
 
-1. Create a scratch org and provide it with an alias (ex: purealoe):
+1. スクラッチ組織を生成し、エイリアス名を設定する (例: purealoe):
     ```
     sfdx force:org:create -s -f config/project-scratch-def.json -a *purealoe*
     ```
 
-1. Push the app to your scratch org:
+1. アプリをスクラッチ組織へプッシュする:
     ```
     sfdx force:source:push
     ```
 
-1. Assign the purealoe permission set to the default user:
+1. purealoe 権限セットをデフォルトのユーザへアサインする:
     ```
     sfdx force:user:permset:assign -n purealoe
     ```
 
-1. Load sample data:
+1. サンプルデータを読み込む:
     ```
     sfdx force:data:tree:import --plan ./data/Harvest_Field__c-plan.json
     sfdx force:data:tree:import --plan ./data/Merchandise__c-plan.json
     ```
 
-1. Open the scratch org:
+1. スクラッチ組織を起動する:
     ```
     sfdx force:org:open
     ```

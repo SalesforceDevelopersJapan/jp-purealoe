@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Bundle__c</fullName>
     <externalId>false</externalId>
-    <label>Bundle</label>
+    <label>商品セット</label>
     <referenceTo>Bundle__c</referenceTo>
-    <relationshipLabel>Bundles</relationshipLabel>
+    <relationshipLabel>商品セット</relationshipLabel>
     <relationshipName>Bundles</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

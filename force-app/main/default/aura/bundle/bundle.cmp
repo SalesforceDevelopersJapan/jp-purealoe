@@ -15,7 +15,7 @@
     <div>
         <lightning:layout>
             <lightning:layoutitem>
-                    <p class="slds-text-heading_small slds-p-bottom_small">Bundle Items</p>
+                    <p class="slds-text-heading_small slds-p-bottom_small">商品セットアイテム</p>
             </lightning:layoutitem>
         </lightning:layout>
         <lightning:layout class="header"> 
@@ -25,17 +25,17 @@
             <lightning:layoutitem flexibility="grow">
                 <lightning:layout class="header-fields">
                     <lightning:layoutitem>
-                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">Total MSRP</p>
+                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">合計価格</p>
                         <p class="slds-text-heading_small slds-truncate total-msrp">
-                            $<span aura:id="totalMSRP">0</span>
+                            ￥<span aura:id="totalMSRP">0</span>
                         </p>
                     </lightning:layoutitem>
                     <lightning:layoutitem>
-                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">Products</p>
+                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">商品</p>
                         <p class="slds-text-heading_small slds-truncate ">{!v.bundleItems.length}</p>
                     </lightning:layoutitem>
                     <lightning:layoutitem padding="horizontal-large">
-                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">Qty</p>
+                        <p class="slds-text-title slds-truncate slds-m-bottom_xx-small">数量</p>
                         <p class="slds-text-heading_small slds-truncate">{!v.totalQty}</p>
                     </lightning:layoutitem>
                     <aura:if isTrue="{!v.showChart}">

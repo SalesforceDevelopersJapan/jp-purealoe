@@ -5,7 +5,7 @@
     <aura:attribute name="accountId" type="Id" />
     <aura:attribute name="record" type="Object" />
     <aura:attribute name="account" type="Object" />
-    <aura:attribute name="steps" type="String[]" default="['Draft', 'Submitted to Distributors', 'Ordered by Distributor', 'Shipped']" />
+    <aura:attribute name="steps" type="String[]" default="['ドラフト', '販売協力店に送信済み', '販売協力店からオーダー済み', '配送済み']" />
     <aura:attribute name="pathName" type="String" access="global"/>
     
     <force:recordData aura:id="bundleRecord"

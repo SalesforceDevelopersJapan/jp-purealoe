@@ -49,13 +49,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Harvest</label>
+    <label>収穫</label>
     <nameField>
         <displayFormat>H-{00000}</displayFormat>
-        <label>Harvest Name</label>
+        <label>収穫名</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Harvests</pluralLabel>
+    <pluralLabel>収穫</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -10,7 +10,7 @@
         recordUpdated="{!c.onRecordUpdated}"
     />
 
-    <lightning:card title="Field Map" iconName="utility:location">
+    <lightning:card title="区画マップ" iconName="utility:location">
 
     <div aura:id="svgWrapper" onclick="{!c.onMapClick}">
         <![CDATA[

@@ -57,13 +57,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Product Bundle</label>
+    <label>商品セット</label>
     <nameField>
         <displayFormat>B-{0000}</displayFormat>
-        <label>Bundle Name</label>
+        <label>商品セット名</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Product Bundles</pluralLabel>
+    <pluralLabel>商品セット</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

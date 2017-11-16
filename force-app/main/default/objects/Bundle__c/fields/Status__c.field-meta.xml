@@ -11,48 +11,24 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Draft</fullName>
+                <fullName>ドラフト</fullName>
                 <default>true</default>
-                <label>Draft</label>
+                <label>ドラフト</label>
             </value>
             <value>
-                <fullName>Submitted to Distributors</fullName>
+                <fullName>販売協力店に送信済み</fullName>
                 <default>false</default>
-                <label>Submitted to Distributors</label>
+                <label>販売協力店に送信済み</label>
             </value>
             <value>
-                <fullName>Ordered by Distributor</fullName>
+                <fullName>販売協力店からオーダー済み</fullName>
                 <default>false</default>
-                <label>Ordered by Distributor</label>
+                <label>販売協力店からオーダー済み</label>
             </value>
             <value>
-                <fullName>Shipped</fullName>
+                <fullName>配送済み</fullName>
                 <default>false</default>
-                <label>Shipped</label>
-            </value>
-            <value>
-                <fullName>Approved by Manufacturing</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Approved by Manufacturing</label>
-            </value>
-            <value>
-                <fullName>Ordered</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Ordered</label>
-            </value>
-            <value>
-                <fullName>Submitted to Distributor</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Submitted to Distributor</label>
-            </value>
-            <value>
-                <fullName>Submitted to Manufacturing</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Submitted to Manufacturing</label>
+                <label>配送済み</label>
             </value>
         </valueSetDefinition>
     </valueSet>

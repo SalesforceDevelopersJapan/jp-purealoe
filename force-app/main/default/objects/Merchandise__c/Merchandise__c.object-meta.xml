@@ -57,13 +57,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Product</label>
+    <label>商品</label>
     <nameField>
         <displayFormat>M-{0000}</displayFormat>
-        <label>Merchandise Name</label>
+        <label>商品名</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Products</pluralLabel>
+    <pluralLabel>商品</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

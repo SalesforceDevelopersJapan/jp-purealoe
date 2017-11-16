@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Map_Id__c</fullName>
     <externalId>false</externalId>
-    <label>Map Id</label>
+    <label>地図Id</label>
     <length>10</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

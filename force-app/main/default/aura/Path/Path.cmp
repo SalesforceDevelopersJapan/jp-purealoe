@@ -18,7 +18,7 @@
                         <a class="slds-tabs--path__link" data-step="{!step}" onclick="{!c.onStepClicked}">
                           <span class="slds-tabs--path__stage">
                               <lightning:icon iconName="utility:check" size="x-small" class="process-icon"/>
-                            <span class="slds-assistive-text">Stage Complete</span>
+                            <span class="slds-assistive-text">ステージ完了</span>
                           </span>
                           <span class="slds-tabs--path__title">{!step}</span>
                         </a>

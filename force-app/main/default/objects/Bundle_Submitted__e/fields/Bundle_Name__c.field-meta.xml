@@ -5,7 +5,7 @@
     <isFilteringDisabled>false</isFilteringDisabled>
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>
-    <label>Bundle Name</label>
+    <label>商品セット名</label>
     <length>100</length>
     <required>false</required>
     <type>Text</type>
