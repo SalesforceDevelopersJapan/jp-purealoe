@@ -59,6 +59,7 @@
         <label>Score Reason</label>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Score Reasons</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

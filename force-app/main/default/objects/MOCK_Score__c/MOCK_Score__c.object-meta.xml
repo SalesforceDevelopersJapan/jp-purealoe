@@ -59,6 +59,7 @@
         <label>Score Name</label>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Scores</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Parent_Object_Type__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Default__c</customTabListAdditionalFields>
