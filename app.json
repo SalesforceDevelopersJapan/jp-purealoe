@@ -1,0 +1,27 @@
+{
+    "name":"DX with Heroku Sample",
+    "scripts": {
+      "postdestroy": "./pr-predestroy-tasks-dx.sh",
+      "pr-predestroy": "./pr-predestroy-tasks-dx.sh"
+    },
+    "env": {
+      "DEVHUB_USERNAME": {
+        "description": "DevHub組織のユーザ名",
+      },
+      "DEVHUB_CONSUMERKEY": {
+        "description": "DevHub組織の接続アプリケーションのコンシューマキー"
+      },
+      "DEVHUB_KEY_CRYPT_PASS": {
+        "description": "秘密鍵の暗号化パスワード",
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/mokamoto/salesforce-cli-buildpack.git"
+      },
+      {
+        "url": "https://github.com/chrismytton/heroku-buildpack-jq.git"
+      }
+    ]
+  }
+  

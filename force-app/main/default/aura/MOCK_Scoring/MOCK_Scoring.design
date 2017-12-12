@@ -1,0 +1,4 @@
+<design:component label="Einstein Scoring">
+	<design:attribute name="componentLabel" label="Component Label"></design:attribute>
+	<design:attribute name="parentObjectType" label="Object Type" datasource="Lead, Opportunity,Harvest_Field__c"></design:attribute>
+</design:component>

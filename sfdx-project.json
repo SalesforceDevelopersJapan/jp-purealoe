@@ -2,8 +2,10 @@
   "packageDirectories": [
     {
       "path": "force-app",
+      "id": "0Ho0K0000000001SAA",
+      "versionNumber": "1.0.0.1",
       "default": true
-    }
+    } 
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",

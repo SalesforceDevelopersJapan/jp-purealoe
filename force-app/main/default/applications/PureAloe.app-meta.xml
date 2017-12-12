@@ -5,6 +5,7 @@
         <logo>purealoe</logo>
         <logoVersion>1</logoVersion>
     </brand>
+    <description>ピュアアロエは畑の灌漑管理から作物の収穫、販売アイテムの管理までを行うLightningアプリケーションです。</description>
     <formFactors>Large</formFactors>
     <label>ピュアアロエ</label>
     <navType>Standard</navType>

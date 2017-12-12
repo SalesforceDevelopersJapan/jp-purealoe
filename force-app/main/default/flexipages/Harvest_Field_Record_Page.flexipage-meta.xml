@@ -76,6 +76,20 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>MOCK_ScoringSetup</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>componentLabel</name>
+                <value>Einstein スコア</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>parentObjectType</name>
+                <value>Harvest_Field__c</value>
+            </componentInstanceProperties>
+            <componentName>MOCK_Scoring</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>harvestFieldMapNav</componentName>
         </componentInstances>
         <mode>Replace</mode>
