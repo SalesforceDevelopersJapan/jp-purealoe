@@ -15,6 +15,8 @@ sfdx force:source:push -u DevOrg
 sfdx force:user:permset:assign -n purealoe -u DevOrg
 sfdx force:data:tree:import --plan ./data/Harvest_Field__c-plan.json -u DevOrg
 sfdx force:data:tree:import --plan ./data/Merchandise__c-plan.json -u DevOrg
+sfdx force:data:tree:import --plan ./data/Merchandise__c-plan.json -u DevOrg
+
 
 sfdx force:org:display
 

@@ -1,2 +1,2 @@
 release : ./dx_release-tasks.sh
-web : node dx_server.js
+#web : node dx_server.js
