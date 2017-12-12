@@ -4,6 +4,7 @@ echo "RUN!!"
 
 #Decrypt server.key
 openssl enc -d -aes-256-cbc -pass pass:$DEVHUB_KEY_CRYPT_PASS -in assets/server.key.enc -out assets/server.key
+
 #update sfdx command
 sfdx update
 sfdx --version
