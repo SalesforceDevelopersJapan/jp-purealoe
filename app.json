@@ -1,8 +1,8 @@
 {
     "name":"DX with Heroku Sample",
     "scripts": {
-      "postdestroy": "./pr-predestroy-tasks-dx.sh",
-      "pr-predestroy": "./pr-predestroy-tasks-dx.sh"
+      "postdestroy": "./dx_release-tasks.sh",
+      "pr-predestroy": "./dx_pr-predestroy-tasks.sh"
     },
     "env": {
       "DEVHUB_USERNAME": {

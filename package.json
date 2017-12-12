@@ -1,0 +1,24 @@
+{
+    "name": "jp-purealoe-dx",
+    "version": "1.0.0",
+    "description": "A sample Salesforce DX with Heroku Pipeline",
+    "engines": {
+      "node": "6.11.1"
+    },
+    "main": "dx_server.js",
+    "scripts": {
+      "start": "node dx_server.js"
+    },
+    "dependencies": {
+      "express": "4.15.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mokamoto/northern-trail-heroku-pipeline.git"
+    },
+    "keywords": [
+      "Salesforce DX",
+      "heroku"
+    ],
+    "license": "MIT"
+  }
