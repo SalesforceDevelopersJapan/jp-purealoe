@@ -18,6 +18,9 @@ sfdx force:data:tree:import --plan ./data/Harvest_Field__c-plan.json -u DevOrg
 sfdx force:data:tree:import --plan ./data/Merchandise__c-plan.json -u DevOrg
 sfdx force:data:tree:import --plan ./data/Merchandise__c-plan.json -u DevOrg
 
+#create package2 Package
+sfdx force:package2:version:create -i 0Ho0K0000000001SAA
+
 
 sfdx force:org:display
 
@@ -25,9 +28,5 @@ DX_JSON_RESPONSE=$(sfdx force:org:display --json)
 INSTANCE_URL=$(echo $DX_JSON_RESPONSE | jq -r ".result.instanceUrl")
 ACCESS_TOKEN=$(echo $DX_JSON_RESPONSE | jq -r ".result.accessToken")
 LOGIN_URL=${INSTANCE_URL}/secur/frontdoor.jsp?sid=${ACCESS_TOKEN}
-
-heroku config:set SCRATCHORG_INSTANCE_URL=${INSTANCE_URL} - a $HEROKU_APP_NAME
-heroku config:set SCRATCHORG_ACCESS_TOKEN=${ACCESS_TOKEN} - a $HEROKU_APP_NAME
-heroku config:set SCRATCHORG_LOGIN_URL=${LOGIN_URL} - a $HEROKU_APP_NAME
 
 echo "Login URL is Here : ${LOGIN_URL}"
